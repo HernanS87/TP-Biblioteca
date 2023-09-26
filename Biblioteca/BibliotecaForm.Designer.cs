@@ -28,19 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
+            btnCargarLibros = new Button();
             btnMostrarLibros = new Button();
             SuspendLayout();
             // 
-            // button1
+            // btnCargarLibros
             // 
-            button1.Location = new Point(238, 116);
-            button1.Name = "button1";
-            button1.Size = new Size(114, 23);
-            button1.TabIndex = 0;
-            button1.Text = "Cargar Libro";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            btnCargarLibros.Location = new Point(238, 116);
+            btnCargarLibros.Name = "btnCargarLibros";
+            btnCargarLibros.Size = new Size(114, 23);
+            btnCargarLibros.TabIndex = 0;
+            btnCargarLibros.Text = "Cargar Libro";
+            btnCargarLibros.UseVisualStyleBackColor = true;
+            btnCargarLibros.Click += btnCargarLibros_Click;
             // 
             // btnMostrarLibros
             // 
@@ -59,7 +59,7 @@
             BackColor = Color.FromArgb(255, 255, 128);
             ClientSize = new Size(571, 348);
             Controls.Add(btnMostrarLibros);
-            Controls.Add(button1);
+            Controls.Add(btnCargarLibros);
             Name = "frmBiblioteca";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "BIBLIOTECA";
@@ -68,7 +68,7 @@
 
         #endregion
 
-        private Button button1;
+        private Button btnCargarLibros;
         private Button btnMostrarLibros;
     }
 }

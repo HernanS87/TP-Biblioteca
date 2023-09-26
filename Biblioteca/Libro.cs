@@ -17,14 +17,19 @@ namespace Biblioteca
             this.autor = autor;
             this.editorial = editorial;
         }
-
         public string getTitulo()
         {
-            return nombre;
+            return Nombre;
         }
+
+        public string Nombre { get => nombre; set => nombre = value; }
+        public string Autor { get => autor; set => autor = value; }
+        public string Editorial { get => editorial; set => editorial = value; }
+        
+
         public override string ToString()
         {
-            return $"El nombre del libro es {nombre} su autor {autor} y editorial: {editorial}";
+            return $"El nombre del libro es {nombre}, su autor es {autor} y su editorial es {editorial}";
         }
 
        
