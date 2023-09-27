@@ -29,12 +29,16 @@
         private void InitializeComponent()
         {
             btnCargarLibros = new Button();
-            btnMostrarLibros = new Button();
+            btnListarLibros = new Button();
+            btnAltaLector = new Button();
+            btnListarLectores = new Button();
+            btnPedirLibro = new Button();
+            btnDevolverLibro = new Button();
             SuspendLayout();
             // 
             // btnCargarLibros
             // 
-            btnCargarLibros.Location = new Point(238, 116);
+            btnCargarLibros.Location = new Point(58, 81);
             btnCargarLibros.Name = "btnCargarLibros";
             btnCargarLibros.Size = new Size(114, 23);
             btnCargarLibros.TabIndex = 0;
@@ -42,15 +46,53 @@
             btnCargarLibros.UseVisualStyleBackColor = true;
             btnCargarLibros.Click += btnCargarLibros_Click;
             // 
-            // btnMostrarLibros
+            // btnListarLibros
             // 
-            btnMostrarLibros.Location = new Point(238, 178);
-            btnMostrarLibros.Name = "btnMostrarLibros";
-            btnMostrarLibros.Size = new Size(114, 23);
-            btnMostrarLibros.TabIndex = 1;
-            btnMostrarLibros.Text = "Mostrar Libros";
-            btnMostrarLibros.UseVisualStyleBackColor = true;
-            btnMostrarLibros.Click += btnMostrarLibros_Click;
+            btnListarLibros.Location = new Point(58, 157);
+            btnListarLibros.Name = "btnListarLibros";
+            btnListarLibros.Size = new Size(114, 23);
+            btnListarLibros.TabIndex = 1;
+            btnListarLibros.Text = "Libros";
+            btnListarLibros.UseVisualStyleBackColor = true;
+            btnListarLibros.Click += btnListarLibros_Click;
+            // 
+            // btnAltaLector
+            // 
+            btnAltaLector.Location = new Point(215, 81);
+            btnAltaLector.Name = "btnAltaLector";
+            btnAltaLector.Size = new Size(114, 23);
+            btnAltaLector.TabIndex = 2;
+            btnAltaLector.Text = "Alta Lector";
+            btnAltaLector.UseVisualStyleBackColor = true;
+            btnAltaLector.Click += btnAltaLector_Click;
+            // 
+            // btnListarLectores
+            // 
+            btnListarLectores.Location = new Point(215, 157);
+            btnListarLectores.Name = "btnListarLectores";
+            btnListarLectores.Size = new Size(114, 23);
+            btnListarLectores.TabIndex = 3;
+            btnListarLectores.Text = "Lectores";
+            btnListarLectores.UseVisualStyleBackColor = true;
+            btnListarLectores.Click += btnListarLectores_Click;
+            // 
+            // btnPedirLibro
+            // 
+            btnPedirLibro.Location = new Point(388, 81);
+            btnPedirLibro.Name = "btnPedirLibro";
+            btnPedirLibro.Size = new Size(114, 23);
+            btnPedirLibro.TabIndex = 4;
+            btnPedirLibro.Text = "Pedir Libro";
+            btnPedirLibro.UseVisualStyleBackColor = true;
+            // 
+            // btnDevolverLibro
+            // 
+            btnDevolverLibro.Location = new Point(388, 157);
+            btnDevolverLibro.Name = "btnDevolverLibro";
+            btnDevolverLibro.Size = new Size(114, 23);
+            btnDevolverLibro.TabIndex = 5;
+            btnDevolverLibro.Text = "Devolver Libro";
+            btnDevolverLibro.UseVisualStyleBackColor = true;
             // 
             // frmBiblioteca
             // 
@@ -58,7 +100,11 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(255, 255, 128);
             ClientSize = new Size(571, 348);
-            Controls.Add(btnMostrarLibros);
+            Controls.Add(btnDevolverLibro);
+            Controls.Add(btnPedirLibro);
+            Controls.Add(btnListarLectores);
+            Controls.Add(btnAltaLector);
+            Controls.Add(btnListarLibros);
             Controls.Add(btnCargarLibros);
             Name = "frmBiblioteca";
             StartPosition = FormStartPosition.CenterScreen;
@@ -69,6 +115,10 @@
         #endregion
 
         private Button btnCargarLibros;
-        private Button btnMostrarLibros;
+        private Button btnListarLibros;
+        private Button btnAltaLector;
+        private Button btnListarLectores;
+        private Button btnPedirLibro;
+        private Button btnDevolverLibro;
     }
 }

@@ -24,6 +24,8 @@ namespace Biblioteca
         {
             List<Libro> lista = biblioteca.getLibros();
 
+            dtgvLibros.RowHeadersVisible = false;
+
             foreach (Libro libro in lista)
             {
                 int fila = dtgvLibros.Rows.Add();

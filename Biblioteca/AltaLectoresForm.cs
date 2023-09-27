@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace Biblioteca
 {
-    public partial class frmCargarLibros : Form
+    public partial class frmAltaLectores : Form
     {
-        private Biblioteca biblioteca;
-        public frmCargarLibros(Biblioteca biblioteca)
+        public Biblioteca biblioteca;
+        public frmAltaLectores(Biblioteca biblioteca)
         {
             InitializeComponent();
             this.biblioteca = biblioteca;
@@ -22,19 +22,18 @@ namespace Biblioteca
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             String nombre = txtNombre.Text.Trim();
-            String autor = txtAutor.Text.Trim();
-            String editorial = txtEditorial.Text.Trim();
+            String apellido = txtApellido.Text.Trim();
+            String dni = txtDNI.Text.Trim();
 
-            bool status = biblioteca.agregarLibro(nombre, autor, editorial);
+            bool status = biblioteca.altaLector(nombre, apellido, dni);
             if (status)
             {
-                MessageBox.Show("Se cargó el libro correctamente", "LIBRO", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Se cargó el lector correctamente", "LECTOR", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
-                MessageBox.Show("Ups! Este libro ya existe", "LIBRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Ups! Este lector ya existe", "LECTOR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
     }
 }

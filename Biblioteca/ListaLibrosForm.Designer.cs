@@ -37,6 +37,7 @@
             // 
             // dtgvLibros
             // 
+            dtgvLibros.BackgroundColor = SystemColors.ButtonFace;
             dtgvLibros.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dtgvLibros.Columns.AddRange(new DataGridViewColumn[] { Titulo, Autor, Editorial });
             dtgvLibros.Location = new Point(56, 71);

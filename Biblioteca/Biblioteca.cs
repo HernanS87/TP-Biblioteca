@@ -10,15 +10,22 @@ namespace Biblioteca
     public class Biblioteca
     {
         private List<Libro> libros;
+        private List<Lector> lectores;
 
         public Biblioteca()
         {
             this.libros = new List<Libro>();
+            this.lectores = new List<Lector>();
         }
 
         public List<Libro> getLibros()
         {
             return libros;
+        }
+
+        public List<Lector> getLectores()
+        {
+            return lectores;
         }
 
         private Libro buscarLibro(string nombre)
@@ -54,13 +61,58 @@ namespace Biblioteca
             return resp;
         }
 
-        public bool eliminarLibro(string nombre, string autor, string editorial)
+        public bool eliminarLibro(string nombre)
         {
             bool resp = false;
             Libro l = buscarLibro(nombre);
             if (l != null)
             {
                 libros.Remove(l);
+                resp = true;
+            }
+            return resp;
+        }
+
+        private Lector buscarLector(string dni)
+        {
+
+            Lector? l = null;
+            int i = 0;
+            while (i < lectores.Count)
+            {
+
+                if (lectores[i].Dni.Equals(dni))
+                {
+                    l = lectores[i];
+                    i = lectores.Count;
+                }
+                i++;
+            }
+            return l;
+        }
+
+        public bool altaLector(string nombre, string apellido, string dni)
+        {
+            bool resp = false;
+            Lector l = buscarLector(dni);
+
+            if (l == null)
+            {
+
+                l = new Lector(nombre, apellido, dni);
+                lectores.Add(l);
+                resp = true;
+            }
+            return resp;
+        }
+
+        public bool eliminarLector(string dni)
+        {
+            bool resp = false;
+            Lector l = buscarLector(dni);
+            if (l != null)
+            {
+                lectores.Remove(l);
                 resp = true;
             }
             return resp;

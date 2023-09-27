@@ -18,6 +18,16 @@ namespace Biblioteca
             this.Show();
         }
 
+        private void formAltaLectores_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Show();
+        }
+
+        private void formListaLectores_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Show();
+        }
+
         private void btnCargarLibros_Click(object sender, EventArgs e)
         {
 
@@ -28,7 +38,7 @@ namespace Biblioteca
 
         }
 
-        private void btnMostrarLibros_Click(object sender, EventArgs e)
+        private void btnListarLibros_Click(object sender, EventArgs e)
         {
             Form formListaLibros = new frmListaLibros(biblioteca);
             formListaLibros.Show();
@@ -36,6 +46,21 @@ namespace Biblioteca
             this.Hide();
         }
 
+        private void btnAltaLector_Click(object sender, EventArgs e)
+        {
+            Form formAltaLectores = new frmAltaLectores(biblioteca);
+            formAltaLectores.Show();
+            formAltaLectores.FormClosed += formAltaLectores_FormClosed;
+            this.Hide();
+        }
+
+        private void btnListarLectores_Click(object sender, EventArgs e)
+        {
+            Form formListaLectores = new frmListaLectores(biblioteca);
+            formListaLectores.Show();
+            formListaLectores.FormClosed += formListaLectores_FormClosed;
+            this.Hide();
+        }
     }
 
 
