@@ -18,4 +18,27 @@ C:\Users\HERNI\Desktop\Developer\Tecnicatura\Segundo Semestre\POO\Semana 5\TP-Bi
 C:\Users\HERNI\Desktop\Developer\Tecnicatura\Segundo Semestre\POO\Semana 5\TP-Biblioteca\Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.frmListaLibros.resources
 C:\Users\HERNI\Desktop\Developer\Tecnicatura\Segundo Semestre\POO\Semana 5\TP-Biblioteca\Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.frmAltaLectores.resources
 C:\Users\HERNI\Desktop\Developer\Tecnicatura\Segundo Semestre\POO\Semana 5\TP-Biblioteca\Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.frmListaLectores.resources
+<<<<<<< HEAD
 C:\Users\HERNI\Desktop\Developer\Tecnicatura\Segundo Semestre\POO\Semana 5\TP-Biblioteca\Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.frmPrestamo.resources
+=======
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\TPBiblioteca\TP-Biblioteca\Biblioteca\bin\Debug\net6.0-windows\Biblioteca.exe
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\TPBiblioteca\TP-Biblioteca\Biblioteca\bin\Debug\net6.0-windows\Biblioteca.deps.json
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\TPBiblioteca\TP-Biblioteca\Biblioteca\bin\Debug\net6.0-windows\Biblioteca.runtimeconfig.json
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\TPBiblioteca\TP-Biblioteca\Biblioteca\bin\Debug\net6.0-windows\Biblioteca.dll
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\TPBiblioteca\TP-Biblioteca\Biblioteca\bin\Debug\net6.0-windows\Biblioteca.pdb
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\TPBiblioteca\TP-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.frmAltaLectores.resources
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\TPBiblioteca\TP-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.frmBiblioteca.resources
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\TPBiblioteca\TP-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.frmCargarLibros.resources
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\TPBiblioteca\TP-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.frmListaLectores.resources
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\TPBiblioteca\TP-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.frmListaLibros.resources
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\TPBiblioteca\TP-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.csproj.GenerateResource.cache
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\TPBiblioteca\TP-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\TPBiblioteca\TP-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.AssemblyInfoInputs.cache
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\TPBiblioteca\TP-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.AssemblyInfo.cs
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\TPBiblioteca\TP-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\TPBiblioteca\TP-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.dll
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\TPBiblioteca\TP-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\refint\Biblioteca.dll
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\TPBiblioteca\TP-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.pdb
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\TPBiblioteca\TP-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.genruntimeconfig.cache
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\TPBiblioteca\TP-Biblioteca\Biblioteca\obj\Debug\net6.0-windows\ref\Biblioteca.dll
+>>>>>>> 06b6829031f2cbb42e533fc197ec55871e97ca42
