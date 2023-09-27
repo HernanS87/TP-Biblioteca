@@ -35,6 +35,7 @@
             txtAutor = new TextBox();
             txtEditorial = new TextBox();
             btnAgregar = new Button();
+            btnVolver = new Button();
             SuspendLayout();
             // 
             // lblNombre
@@ -95,12 +96,23 @@
             btnAgregar.UseVisualStyleBackColor = true;
             btnAgregar.Click += btnAgregar_Click;
             // 
+            // btnVolver
+            // 
+            btnVolver.Location = new Point(439, 142);
+            btnVolver.Name = "btnVolver";
+            btnVolver.Size = new Size(75, 23);
+            btnVolver.TabIndex = 7;
+            btnVolver.Text = "VOLVER";
+            btnVolver.UseVisualStyleBackColor = true;
+            btnVolver.Click += btnVolver_Click;
+            // 
             // frmCargarLibros
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(128, 255, 255);
             ClientSize = new Size(572, 221);
+            Controls.Add(btnVolver);
             Controls.Add(btnAgregar);
             Controls.Add(txtEditorial);
             Controls.Add(txtAutor);
@@ -124,5 +136,6 @@
         private TextBox txtAutor;
         private TextBox txtEditorial;
         private Button btnAgregar;
+        private Button btnVolver;
     }
 }
