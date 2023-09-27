@@ -33,7 +33,6 @@
             Apellido = new DataGridViewTextBoxColumn();
             DNI = new DataGridViewTextBoxColumn();
             Prestamos = new DataGridViewTextBoxColumn();
-            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)dtgvLectores).BeginInit();
             SuspendLayout();
             // 
@@ -73,22 +72,12 @@
             Prestamos.Name = "Prestamos";
             Prestamos.Width = 87;
             // 
-            // button1
-            // 
-            button1.Location = new Point(28, 344);
-            button1.Name = "button1";
-            button1.Size = new Size(166, 23);
-            button1.TabIndex = 2;
-            button1.Text = "Mostrar libros x lector";
-            button1.UseVisualStyleBackColor = true;
-            // 
             // frmListaLectores
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(192, 192, 255);
             ClientSize = new Size(652, 440);
-            Controls.Add(button1);
             Controls.Add(dtgvLectores);
             Name = "frmListaLectores";
             StartPosition = FormStartPosition.CenterScreen;
@@ -105,6 +94,5 @@
         private DataGridViewTextBoxColumn Apellido;
         private DataGridViewTextBoxColumn DNI;
         private DataGridViewTextBoxColumn Prestamos;
-        private Button button1;
     }
 }

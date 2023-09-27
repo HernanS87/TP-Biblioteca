@@ -28,7 +28,7 @@ namespace Biblioteca
             return lectores;
         }
 
-        private Libro buscarLibro(string nombre)
+        public Libro buscarLibro(string nombre)
         {
             
             Libro? l = null;
@@ -73,7 +73,7 @@ namespace Biblioteca
             return resp;
         }
 
-        private Lector buscarLector(string dni)
+        public Lector buscarLector(string dni)
         {
 
             Lector? l = null;

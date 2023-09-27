@@ -18,3 +18,4 @@ C:\Users\HERNI\Desktop\Developer\Tecnicatura\Segundo Semestre\POO\Semana 5\TP-Bi
 C:\Users\HERNI\Desktop\Developer\Tecnicatura\Segundo Semestre\POO\Semana 5\TP-Biblioteca\Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.frmListaLibros.resources
 C:\Users\HERNI\Desktop\Developer\Tecnicatura\Segundo Semestre\POO\Semana 5\TP-Biblioteca\Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.frmAltaLectores.resources
 C:\Users\HERNI\Desktop\Developer\Tecnicatura\Segundo Semestre\POO\Semana 5\TP-Biblioteca\Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.frmListaLectores.resources
+C:\Users\HERNI\Desktop\Developer\Tecnicatura\Segundo Semestre\POO\Semana 5\TP-Biblioteca\Biblioteca\Biblioteca\obj\Debug\net6.0-windows\Biblioteca.frmPrestamo.resources

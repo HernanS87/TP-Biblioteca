@@ -37,5 +37,35 @@ namespace Biblioteca
         public string Apellido { get => apellido; set => apellido = value; }
         public string Dni { get => dni; set => dni = value; }
         public List<Libro> Libros { get => libros; set => libros = value; }
+
+        public Libro buscarLibro(string nombre)
+        {
+
+            Libro? l = null;
+            int i = 0;
+            while (i < libros.Count)
+            {
+
+                if (libros[i].getTitulo().Equals(nombre))
+                {
+                    l = libros[i];
+                    i = libros.Count;
+                }
+                i++;
+            }
+            return l;
+        }
+
+        public bool eliminarLibro(string nombre)
+        {
+            bool resp = false;
+            Libro l = buscarLibro(nombre);
+            if (l != null)
+            {
+                libros.Remove(l);
+                resp = true;
+            }
+            return resp;
+        }
     }
 }

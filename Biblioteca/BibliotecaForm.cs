@@ -28,6 +28,11 @@ namespace Biblioteca
             this.Show();
         }
 
+        private void formPrestamos_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Show();
+        }
+
         private void btnCargarLibros_Click(object sender, EventArgs e)
         {
 
@@ -59,6 +64,14 @@ namespace Biblioteca
             Form formListaLectores = new frmListaLectores(biblioteca);
             formListaLectores.Show();
             formListaLectores.FormClosed += formListaLectores_FormClosed;
+            this.Hide();
+        }
+
+        private void btnPrestamo_Click(object sender, EventArgs e)
+        {
+            Form formPrestamos = new frmPrestamo(biblioteca);
+            formPrestamos.Show();
+            formPrestamos.FormClosed += formPrestamos_FormClosed;
             this.Hide();
         }
     }

@@ -32,8 +32,7 @@
             btnListarLibros = new Button();
             btnAltaLector = new Button();
             btnListarLectores = new Button();
-            btnPedirLibro = new Button();
-            btnDevolverLibro = new Button();
+            btnPrestamo = new Button();
             SuspendLayout();
             // 
             // btnCargarLibros
@@ -76,23 +75,15 @@
             btnListarLectores.UseVisualStyleBackColor = true;
             btnListarLectores.Click += btnListarLectores_Click;
             // 
-            // btnPedirLibro
+            // btnPrestamo
             // 
-            btnPedirLibro.Location = new Point(388, 81);
-            btnPedirLibro.Name = "btnPedirLibro";
-            btnPedirLibro.Size = new Size(114, 23);
-            btnPedirLibro.TabIndex = 4;
-            btnPedirLibro.Text = "Pedir Libro";
-            btnPedirLibro.UseVisualStyleBackColor = true;
-            // 
-            // btnDevolverLibro
-            // 
-            btnDevolverLibro.Location = new Point(388, 157);
-            btnDevolverLibro.Name = "btnDevolverLibro";
-            btnDevolverLibro.Size = new Size(114, 23);
-            btnDevolverLibro.TabIndex = 5;
-            btnDevolverLibro.Text = "Devolver Libro";
-            btnDevolverLibro.UseVisualStyleBackColor = true;
+            btnPrestamo.Location = new Point(388, 81);
+            btnPrestamo.Name = "btnPrestamo";
+            btnPrestamo.Size = new Size(114, 23);
+            btnPrestamo.TabIndex = 4;
+            btnPrestamo.Text = "Prestamo";
+            btnPrestamo.UseVisualStyleBackColor = true;
+            btnPrestamo.Click += btnPrestamo_Click;
             // 
             // frmBiblioteca
             // 
@@ -100,8 +91,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(255, 255, 128);
             ClientSize = new Size(571, 348);
-            Controls.Add(btnDevolverLibro);
-            Controls.Add(btnPedirLibro);
+            Controls.Add(btnPrestamo);
             Controls.Add(btnListarLectores);
             Controls.Add(btnAltaLector);
             Controls.Add(btnListarLibros);
@@ -118,7 +108,6 @@
         private Button btnListarLibros;
         private Button btnAltaLector;
         private Button btnListarLectores;
-        private Button btnPedirLibro;
-        private Button btnDevolverLibro;
+        private Button btnPrestamo;
     }
 }
